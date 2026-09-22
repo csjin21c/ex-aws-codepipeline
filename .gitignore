@@ -27,5 +27,12 @@ build/
 dist/
 *.egg-info/
 
-# === 기타 ===
-infra       # 태라폼 파일
+# === 6. Terraform 바이너리 및 캐시 제외 ==
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
